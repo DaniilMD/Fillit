@@ -3,11 +3,9 @@
 void	pull_array(void)
 {
 	int		k;
-	int		i;
 	int		j;
 	char	*line;
 
-	i = 0;
 	k = -1;
 	line = "##..\n##..\n....\n....\n\n#...\n#...\n#...\n#...\n\n####"
 	"\n....\n....\n....\n\n###.\n#...\n....\n....\n\n###.\n..#.\n....\n....\n\n"
