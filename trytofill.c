@@ -77,12 +77,10 @@ int		check_possib(int gr_s, int row, int col, int tetcode)
 int		try_to_fill(int row, int col, int n, int sqr)
 {
 	int tetcode;
-	int indic;
 	int size_group;
 
 	if (g_tetrmp[row][col] != '.')
 		return (0);
-	indic = 0;
 	tetcode = get_code(n);
 	size_group = get_gr_size(tetcode);
 	if (!check_segf(sqr, row, col, tetcode))
