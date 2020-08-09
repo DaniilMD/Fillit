@@ -44,5 +44,6 @@ No rotation is possible on a tetrimino, when it is being arranged with the other
 ### Score 100/100  
 Mandatoty part  
 100/100  
+  
 Bonus part  
 Project had no bonus part
