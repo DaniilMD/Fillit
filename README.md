@@ -3,7 +3,7 @@
   Searching the optimal solution among a huge set of possibilities, in a respectable timing.
 In this particular project, it is required to find a way to assemble a given Tetriminos set altogether in the smallest possible square.
 ## Skills to acquire and use
-•	Fundamentals of C
+•	Fundamentals of C\n
 •	Algorithm elaboration
 •	Team work
 •	Familiarizing with a recurring problematic in programming
