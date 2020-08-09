@@ -42,7 +42,7 @@ No rotation is possible on a tetrimino, when it is being arranged with the other
 > Tetriminos are ordered by their apparition order in the file. Among all the possible candidates for the smallest square, only the one where tetriminos are placed on their most upper-left positions is accepted. Tetriminos can't overlap one another.  
 ## Project evaluation result  
 ### Score 100/100  
-Mandatoty part  
+Mandatory part  
 100/100  
   
 Bonus part  
