@@ -3,17 +3,17 @@
   Searching the optimal solution among a huge set of possibilities, in a respectable timing.
 In this particular project, it is required to find a way to assemble a given Tetriminos set altogether in the smallest possible square.
 ## Skills to acquire and use
-•	Fundamentals of C\n
-•	Algorithm elaboration
-•	Team work
-•	Familiarizing with a recurring problematic in programming
-How to run it? (works on Linux and MacOS)
+•	Fundamentals of C 
+•	Algorithm elaboration 
+•	Team work 
+•	Familiarizing with a recurring problematic in programming 
+## How to run it? (works on Linux and MacOS)
 •	git clone https://github.com/DaniilMD/Fillit.git «Folder name»
 •	cd «Folder name»
 •	make
 •	./fillit tetr_sets/«Set name» (for example ./fillit tetr_sets/1)
 
-What does it do?
+## What does it do?
 1) Fillit receives a text files that represents a set of tetriminos in a format like this:
 
 
@@ -30,7 +30,7 @@ What does it do?
 
 2) Then finds the smallest possible square all tetriminos can fit in.
  
-How it works
+## How it works
 1) First of all, Fillit creates a set of all (19) possible valid tetriminos and saves them in a 3-dimensional array «g_valids»
  
 Because each tetrimino fills only 4 of the 16 available boxes, it is possible to describe the same tetrimino in multiple ways. Rotated tetrimino describes a different tetrimino from the original. No rotation is possible on a tetrimino, when it is being arranged with the others.
