@@ -14,8 +14,9 @@ In this particular project, it is required to find a way to assemble a given Tet
 •	./fillit tetr_sets/«Set name» (for example ./fillit tetr_sets/1)  
 
 ## What does it do?
-1) Fillit receives a text files that represents a set of tetriminos in a format like this:
-
+1) Fillit receives a text files that represents a set of tetriminos in a format like this:  
+![tetr_set_1](https://user-images.githubusercontent.com/48802453/89736151-fda69800-da6f-11ea-9dfa-7f66e9e555a0.png)  
+![tetr_set_2](https://user-images.githubusercontent.com/48802453/89736108-be784700-da6f-11ea-9b79-f9ebc293e2e9.png)  
 2) Then finds the smallest possible square all tetriminos can fit in.
  
 ## How it works
@@ -30,5 +31,5 @@ No rotation is possible on a tetrimino, when it is being arranged with the other
 5) Finally, a method of recursive backtracking is applied.  
 > Each time, when all possible combinations of tetrimino positions are checked and the set doesn't fit the square, it is recreated with the side size 1 bigger. The whole recursive algorithm starts again. This process repeats until «the smallest square possible» to fit the tetrimino set is found.  
   
-Algo is built in the way that it corresponds the task:  
+* Algo is built in the way that it corresponds the task:  
 > Tetriminos are ordered by their apparition order in the file. Among all the possible candidates for the smallest square, only the one where tetriminos are placed on their most upper-left positions is accepted. Tetriminos can't overlap one another.  
